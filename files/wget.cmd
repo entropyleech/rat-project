@@ -1,5 +1,5 @@
-REM get admin permissions for script
 @echo off
+REM get admin permissions for script
 :: BatchGotAdmin
 :-------------------------------------
 REM  --> check for permissions
